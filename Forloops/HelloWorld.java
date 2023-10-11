@@ -16,7 +16,7 @@ public class HelloWorld
         }
     }
     public void run3(){
-        for (int k = 10; k >= 0; k = k + (-3)) {
+        for (int k = 10; k != 0; k = k + (-3)) {
             System.out.println("k is " + k + " more than 0");
         }
     }
